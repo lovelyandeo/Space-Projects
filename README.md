@@ -1,1 +1,2 @@
-# This repository is a collection of my projects utilizing both data science and space exploration
+# Data Science in Space
+This serves a a repository of my projects utilizing data science in analyzing, interpreting, and dealing with space science data.
