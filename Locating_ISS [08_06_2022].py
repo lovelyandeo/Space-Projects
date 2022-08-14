@@ -16,4 +16,4 @@ df = df.drop(['index','message'], axis=1) # Removes the old index column and the
 
 fig = px.scatter_geo(df, lat='latitude', lon='longitude') # From the df, we select the latitude and longitude to plot
 
-print(fig.show()) # To display the figure
+print(fig.show()) # To display the figure yes
