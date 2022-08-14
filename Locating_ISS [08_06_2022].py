@@ -1,4 +1,4 @@
-# Disclaimer, this is not real time tracker. But you can use this to track the location of the ISS during a specific time
+# Disclaimer, this is not real time tracker. But it can be used to track the location of the ISS during a specific time
 # Import necessary packages
 import pandas as pd # For loading the dataframe
 import plotly.express as px # For plotting purposes
@@ -16,4 +16,4 @@ df = df.drop(['index','message'], axis=1) # Removes the old index column and the
 
 fig = px.scatter_geo(df, lat='latitude', lon='longitude') # From the df, we select the latitude and longitude to plot
 
-print(fig.show()) # To display the figure yes
+print(fig.show()) # To display the figure
